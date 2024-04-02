@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    background-image: url(pexel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  nav{
+   
+    margin: 6px auto;
+    padding: 10px;
+  
+  }
+  nav ul{
+    position: fixed;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav li{
+    height: 50px;
+  
+  }
+  nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1.5px 0px  black;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 40px;
+    border-radius: 30px;
+  }
+  nav a:hover{
+    background: rgba(255, 255, 255, 0.2);
+  }
+  nav li:first-child{
+    margin-right: auto;
+  }
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width:800px){
+    .hideOnMobile{
+        display: none;
+    }
+  }
+  @media(max-width: 800px){
+    .sidebar{
+        width: 100%;
+    }
+    .menu-button{
+        display: block;
+    }
+  }
+
+  .ptag {
+    text-decoration: none;
+  }
+  .pgtag{
+    text-decoration: none;
+  }
+
+.Buttoms{
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.Buttoms h1{
+    font-size: 5em;
+    margin: 0;
+    color: #75c2b5;
+    text-shadow: 0 0 5px #161313;
+}
+
+.Buttoms p{
+    font-size: 1.5em;
+    margin: 0;
+    color: #eff1f0;
+    text-shadow: 0 0 5px #161313;
+    text-decoration: none;
+}
+
+.Buttoms button{
+    color: #fff;
+    background: transparent;
+    border: solid 2px #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.Buttoms button:hover{
+    cursor: pointer;
+    background: #fff;
+    border: solid 2px #fff;
+    color: #333;
+    
+}.Buttoms button a:hover{
+    cursor: pointer;
+    background: rgb(1, 168, 76);
+    border: solid 2px rgb(1, 168, 76);
+    color: #333;
+}
+.Buttoms button .pgtag:hover{
+    cursor: pointer;
+    background: #fff;
+    border: solid 2px #fff;
+    color: #333;
+}
+
+button.buttons{
+    background: rgb(0, 206, 93);
+    border: solid 2px rgb(0, 206, 93);
+}
+
+button.buttons:hover{
+    color: #fff;
+    background: rgb(1, 168, 76);
+    border: solid 2px rgb(1, 168, 76);
+  
+}
+
+
